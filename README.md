@@ -87,20 +87,7 @@ Open in browser:
 http://localhost:8080
 ```
 
----
 
-## 📸 Screenshots
-
-> Add screenshots here (Dashboard, Add Contact, Login Page)
-
----
-
-## 🔐 Security Notes
-
-* Do NOT commit `application.properties`
-* Use environment variables for credentials
-
----
 
 ## 🌟 Future Improvements
 
@@ -116,20 +103,3 @@ Contributions are welcome!
 Fork the repo and submit a pull request.
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 👩‍💻 Author
-
-**Nikita Saxena**
-SRM Institute of Science and Technology, Chennai
-
----
-
-## ⭐ Support
-
-If you like this project, please give it a ⭐ on GitHub!
