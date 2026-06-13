@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:replace="base :: layout(~{::section})">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>About</title>
+</head>
+
+<body>
+
+<section>
+
+    <!-- 🔷 Banner -->
+    <div class="about-banner d-flex justify-content-center align-items-center">
+        <div class="text-center text-white">
+            <h1 class="display-4 font-weight-bold">Smart Contact Manager</h1>
+            <p class="mt-3">
+                Manage your contacts anytime, anywhere — smartly and securely.
+            </p>
+        </div>
+    </div>
+
+    <!-- 🔷 About Content -->
+    <div class="container about-container">
+
+        <!-- About -->
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h2 class="about-title">📌 About This Website</h2>
+                <p class="about-desc">
+                    Smart Contact Manager is a web application designed to help users
+                    store, manage, and organize their contacts efficiently.
+                    It provides a secure platform where users can access their
+                    contacts from anywhere.
+                </p>
+            </div>
+        </div>
+
+        <!-- Features + Tech -->
+        <div class="row mt-4">
+
+            <div class="col-md-6">
+                <div class="about-card">
+                    <h3>🚀 Features</h3>
+                    <ul>
+                        <li>User Registration & Login</li>
+                        <li>Add, Update & Delete Contacts</li>
+                        <li>Upload Profile Images</li>
+                        <li>Secure Authentication</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="about-card">
+                    <h3>⚙️ Technologies</h3>
+                    <ul>
+                        <li>Spring Boot</li>
+                        <li>Thymeleaf</li>
+                        <li>Bootstrap</li>
+                        <li>MySQL</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Developer -->
+        <div class="row mt-5">
+            <div class="col-md-12 text-center">
+                <div class="about-dev-box">
+                    <h3>👨‍💻 Developer</h3>
+                    <p>
+                        Developed by <b>Nikita Saxena</b><br>
+                        SRM Institute of Science and Technology, Chennai<br>
+                        Passionate about building Java & Spring Boot applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
