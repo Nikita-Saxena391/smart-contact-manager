@@ -52,8 +52,8 @@ smartcontactmanager/
 ### 1️⃣ Clone the Repository
 
 ```
-git clone https://github.com/your-username/smartcontactmanager.git
-cd smartcontactmanager
+git clone https://github.com/Nikita-Saxena391/smart-contact-manager.git
+cd smart-contact-manager
 ```
 
 ### 2️⃣ Configure Database
